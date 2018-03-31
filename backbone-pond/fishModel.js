@@ -2,10 +2,6 @@
 
 var Fish = Backbone.Model.extend({
 	
-	initialize: function () {
-		this.render()
-	},
-
   defaults: {
     name: 'Larry',
     image: 'http://www.google.com',
