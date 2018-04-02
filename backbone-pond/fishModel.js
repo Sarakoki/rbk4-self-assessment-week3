@@ -9,7 +9,7 @@ var Fish = Backbone.Model.extend({
     displayInfo: false
   },
   this.toggleDescription : function() {
-  	this.set('description', !this.get('description'))
+  	this.set('displayInfo', !this.get('displayInfo'))
   },
 
 
